@@ -21,7 +21,7 @@ fi
 rm -rf ${CRONTAB_PATH}
 mkdir -m 0644 -p ${CRONTAB_PATH}
 mkdir -m 0644 -p ${CRONTAB_PATH}/crontab
-touch ${CRONTAB_PATH}/librenms
+touch ${CRONTAB_PATH}/crontab/librenms
 
 # Cron
 echo "Creating LibreNMS daily.sh cron task with the following period fields: $LIBRENMS_DAILY_SCHEDULE"
