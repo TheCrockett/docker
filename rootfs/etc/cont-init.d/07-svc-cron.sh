@@ -19,6 +19,7 @@ fi
 # Init
 rm -rf ${CRONTAB_PATH}
 mkdir -m 0644 -p ${CRONTAB_PATH}
+mkdir -m 0644 -p ${CRONTAB_PATH}/crontab
 touch ${CRONTAB_PATH}/librenms
 
 # Cron
