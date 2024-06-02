@@ -1,6 +1,7 @@
 #!/usr/bin/with-contenv bash
 # shellcheck shell=bash
 set -e
+set -x 
 
 CRONTAB_PATH="/var/spool/cron/"
 
