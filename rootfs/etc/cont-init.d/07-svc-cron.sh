@@ -2,7 +2,7 @@
 # shellcheck shell=bash
 set -e
 
-CRONTAB_PATH="/var/spool/cron/crontabs"
+CRONTAB_PATH="/var/spool/cron/"
 
 LIBRENMS_WEATHERMAP=${LIBRENMS_WEATHERMAP:-false}
 LIBRENMS_WEATHERMAP_SCHEDULE=${LIBRENMS_WEATHERMAP_SCHEDULE:-*/5 * * * *}
